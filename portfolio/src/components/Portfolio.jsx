@@ -8,23 +8,28 @@ const Portfolio = () => {
     {
       id: 1,
       src: feedback,
-      link: 'https://rainbow-faun-772bb4.netlify.app/'
+      href: "https://rainbow-faun-772bb4.netlify.app/",
     },
 
     {
       id: 2,
       src: gym,
-      link: 'https://hamza-gym.netlify.app/'
-
+      href: "https://hamza-gym.netlify.app/",
     },
 
     {
       id: 3,
       src: hTube,
-      link: 'https://h-media.netlify.app/'
-
+      href: "https://h-media.netlify.app/",
     },
   ];
+  const demo = () => {
+
+
+
+    
+  };
+  const code = () => {};
   return (
     <div
       name="portfolio"
@@ -47,10 +52,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex  items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  onClick={demo}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  onClick={code}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
                 </button>
               </div>

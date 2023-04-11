@@ -13,21 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut recusandae
-          quisquam quibusdam quis ducimus dicta fugiat fugit, consequatur esse
-          dolorum deserunt quod itaque asperiores iure! Perspiciatis,
-          reprehenderit corporis? Alias expedita earum deleniti harum! Ea atque,
-          facilis hic deleniti voluptates suscipit provident earum beatae
-          voluptatum. Quo voluptatem nesciunt asperiores dicta molestias.
+          I am a dedicated and skilled full-stack developer with 1.5 years of
+          experience in the industry. I am currently pursuing his Bachelor of
+          Computer Science degree, and in my 8th semester. Throughout my
+          academic journey, I has shown a passion for coding and a willingness
+          to learn and grow as a developer.
         </p>
         <br />
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta iure
-          esse fugiat atque vel fuga dignissimos inventore qui deleniti, sed eos
-          sint quaerat perferendis recusandae cum tempore ipsum reprehenderit
-          eum tempora illum assumenda quis placeat repellendus est. Vitae
-          exercitationem maxime, ea, illum similique ipsam tempore culpa
-          excepturi reprehenderit est praesentium.
+          I have specialized in the MERN stack, which includes MongoDB,
+          Express.js, React.js, and Node.js. My knowledge and experience in this
+          stack have allowed me to create responsive and efficient web
+          applications that cater to the needs of his clients.I am also
+          proficient in various programming languages such as JavaScript, HTML,
+          CSS,and frameworks like Tailwind, NextJS,ReactJS,ExpressJs,Node , and
+          has experience with version control tools such as Git.
         </p>
       </div>
     </div>

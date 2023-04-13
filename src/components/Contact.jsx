@@ -1,6 +1,28 @@
-import React from "react";
+import React,{useRef} from "react";
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_2pcaixb', 'template_48dlthf', form.current, 'DEcOeuSq6zYiub4_3')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
+
+
+
+
   return (
     <div name='contact' className=" w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
@@ -10,7 +32,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form action="https://getform.io/f/6f05e087-6a89-4750-be07-2b3b016b6715" method="POST" className="flex flex-col w-full md:w-1/2">
+          <form ref={form} onSubmit={sendEmail} className="flex flex-col w-full md:w-1/2">
             <input
               type="text"
               name="name"
